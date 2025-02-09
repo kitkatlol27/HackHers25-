@@ -9,12 +9,11 @@ export function SiAddCircleLine(props) {
 }
 
 function App() {
-  const PORT = 5000;
+  const PORT = 8080;
 
   //GET TASK
   async function onClick(){
 
-    const [tasks, setTasks] = useState([]);
 
     const container = document.getElementById("container");
 
@@ -53,6 +52,10 @@ function App() {
       console.log("Something went wrong.");
     }
   }
+
+  
+
+
 
 
   return(
